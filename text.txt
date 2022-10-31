@@ -1,0 +1,22 @@
+This is some php code that  would normally display the results you inputed (stored with the id 'fav_color'):
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+<html>
+    <body>
+
+    <?php
+    echo "Your favorite color is" . $_GET['fav_color'];
+    ?>
+
+    </body>
+</html>
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+This would normally display the results that you inputed (stored with the id 'fav_color')
+Except, this is not on a web server so it can't run php, sadly.
+The $_GET['fav_color'] normally gets the id fav_color and prints its contents on the screen.
