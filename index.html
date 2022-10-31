@@ -2,7 +2,7 @@
     <head>
         <script>
             function js_code_ex() {
-                document.write("JAVASCRIPT ROCKS!!!")
+                document.getElementById('text').innerHTML = "Javascript rocks! Javascript rocks! Javascript rocks! Javascript rocks! Javascript rocks! Javascript rocks! Javascript rocks! Javascript rocks! Javascript rocks! Javascript rocks! Javascript rocks! Javascript rocks! Javascript rocks! Javascript rocks! Javascript rocks! Javascript rocks! Javascript rocks! Javascript rocks! Javascript rocks! Javascript rocks! Javascript rocks! ";
             }
         </script>
     </head>
@@ -14,6 +14,7 @@
         <p> Here is some example php code (You can also find it by inputing somthing at the bottom of "example.html")</p>
         <button style="background-color:red; color:white;" onclick="window.open('text.txt');">Example php code</button>
         <p> Here is some example javascript code</p>
-        <button style="background-color:green; color:white;" onclick="js_code_ex();">Example php code</button>
-    </body> 
+        <button style="background-color:green; color:white;" onclick="js_code_ex();">Example javascript code</button>
+        <p id="text"></p>
+    </body>
 </html>
